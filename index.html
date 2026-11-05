@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+.hpromos{display:flex;flex-direction:column;gap:14px;padding:28px;border-radius:30px;background:linear-gradient(100deg,#2d1a0e,#5a3818);color:#fff;box-shadow:0 24px 50px rgba(50,25,5,.3)}
+.hpromos>small{color:#f0a65a;letter-spacing:3px;text-transform:uppercase;font-size:.75rem;font-weight:600}
+.hp-card{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:16px;padding:14px 18px}
+.hp-card>span{font-size:2rem}
+.hp-card h3{font-size:1.1rem;margin-bottom:2px;color:#fff}
+.hp-card p{font-size:.85rem;opacity:.9;line-height:1.4;color:#fff}
+.hpromos .btn{align-self:flex-start}
+@media(max-width:820px){.hpromos{order:-1;padding:20px}}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Blessed KD Resto Cafe in Kayapa, Nueva Vizcaya. Coffee, milktea, burgers, meals and games. Order online for dine-in, take-out or delivery.">
+<title>Blessed KD Resto Cafe</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=7">
+</head>
+<body>
+<header class="nav" id="top"><div class="wrap bar">
+ <a class="brand" href="#home"><img src="images/logo.jpg" alt="Blessed KD Resto Cafe logo"><span>Blessed Cafe</span></a>
+ <nav class="links" id="links"><a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#reviews">Reviews</a><a href="#visit">Contact</a></nav>
+ <div class="icons"><button class="ic" id="cartBtn" aria-label="Open cart">🛒<b id="cnt">0</b></button><button class="ic burger" id="burger" aria-label="Menu">☰</button></div>
+</div></header>
+
+<section class="hero" id="home"><div class="wrap hgrid">
+ <div class="htxt">
+  <small>Good coffee. Good mood.</small>
+  <h1>Welcome to<br>Blessed KD<br>Resto Cafe</h1>
+  <p>Freshly brewed coffee, warm pastries and hearty meals — served with a blessing. Order online and pick up, dine in or have it delivered.</p>
+  <a class="btn" href="#menu">Order Now</a> <a class="btn out" href="#visit">Visit Us</a>
+ </div>
+ <div class="hpromos">
+  <small>Special Offers</small>
+
+  <div class="hp-card">
+    <span>🙏</span>
+    <div><h3>Share a blessing, save 10%</h3><p>Use code <b>BLESSED10</b> at checkout.</p></div>
+  </div>
+
+  <div class="hp-card">
+    <span>📖</span>
+    <div><h3>Bible Memory Verse Reward</h3><p>Recite at least 5 Bible memory verses and get 10% off. Use code <b>VERSE5</b>.</p></div>
+  </div>
+
+    <a class="hp-card hp-link" href="#games">
+    <span>🎲</span>
+    <div><h3>Play &amp; Pray</h3><p>Join our games and enjoy a fun time with family and friends. <b>Tap to see games →</b></p></div>
+  </a>
+
+</div>
+</div></section>
+
+<section class="wrap" id="about">
+ <div class="title"><h2>The story behind Blessed Cafe</h2><p class="mut">My partner and I started Blessed Cafe with a simple dream of having our own coffee shop. We both shared a love for food, coffee, and serving people, so we decided to turn our dream into a business. It wasn't easy at first, but through hard work, patience, and determination, we slowly made it possible.
+When choosing a name, we wanted something meaningful that represented our journey. We decided on "Blessed Cafe" because we believe that everything we have achieved is a blessing from God. We wanted the name to remind us to always be thankful for every opportunity and success.
+Today, Blessed Cafe is more than just a business to us. It is a dream built with love, faith, and gratitude, and a place where we can share our blessings with everyone.</p></div>
+<br>
+<div class="title"><h2>Meet the Owners</h2></div>
+<div class="owners">
+  <div class="owner">
+   <div class="o-ph">👤<img src="images/owners/owner1.jpg" alt="Owner 1" onerror="this.remove()"></div>
+   <b>Dan Kelcho</b>
+  </div>
+  <div class="owner">
+   <div class="o-ph">👤<img src="images/owners/owner2.jpg" alt="Owner 2" onerror="this.remove()"></div>
+   <b>Kyff Kelcho</b>
+  </div>
+ </div>
+<br>
+ <div class="title"><h2>Why Choose KD's Blessed Cafe?</h2><p class="mut">Brewed with love, served with a blessing</p></div>
+ <div class="why">
+  <div><i>🌿</i><b>Quality Ingredients</b><small>Carefully chosen coffee, fresh produce and honest recipes.</small></div>
+  <div><i>🤲</i><b>Made with Love</b><small>Every cup and plate is prepared with care.</small></div>
+  <div><i>🏡</i><b>Cozy Space</b><small>A warm corner for family, friends and quiet moments.</small></div>
+  <div><i>💛</i><b>Happy Guests</b><small>We treat every guest like family.</small></div>
+ </div>
+</section>
+
+<section id="games">
+  <h2 style="text-align:center">Play & Pray</h2>
+  <p style="text-align:center">Good coffee, good company, and games for everyone.</p>
+  <div id="gameGrid" class="game-grid"></div>
+</section>
+
+<section class="wrap feats">
+ <div><i>☕</i><b>Freshly Brewed</b><small>Every cup made to order</small></div>
+ <div><i>🥐</i><b>Baked Daily</b><small>Warm pastries &amp; treats</small></div>
+ <div><i>🛵</i><b>Easy Ordering</b><small>Dine-in, take-out, delivery</small></div>
+ <div><i>🙏</i><b>Blessed Service</b><small>Everyone is family here</small></div>
+</section>
+ 
+<section class="wrap cols">
+ <a class="col c1" data-cat="Coffee" href="#menu"><small>Rich &amp; Bold</small><h3>Coffee<br>Collection</h3><span class="btn sm">Order Now</span><em>☕</em></a>
+ <a class="col c2" data-cat="Non-Coffee" href="#menu"><small>Smooth &amp; Refreshing</small><h3>Non-Coffee<br>Collection</h3><span class="btn sm">Order Now</span><em>🍵</em></a>
+</section>
+
+<section class="wrap" id="menu">
+ <div class="title"><h2>Our Menu</h2><p class="mut">Tap “Add” to build your order</p></div>
+ <div class="tabs" id="tabs"></div>
+ <div class="grid" id="grid"></div>
+</section>
+
+
+<section class="verse"><div class="wrap"><q id="vq"></q><cite id="vc"></cite></div></section>
+
+<section class="wrap" id="reviews">
+ <div class="title"><h2>What Our Customers Say</h2></div>
+ <div class="revs" id="revs"></div>
+</section>
+
+<section id="memories">
+  <h2 style="text-align:center">Resto Cafe Gallery</h2>
+  <button class="album" id="albumOpen" aria-label="Open photo album">
+    <img id="albumCover" alt="Album cover">
+    <span class="album-info"><b>Memories</b><small id="albumCount"></small></span>
+  </button>
+</section>
+
+<div class="am" id="albumModal">
+  <center><div class="am-top"><h2>Be Blessed with these beautiful souls.</h2></div>
+  <div class="am-top"><b>Resto Cafe Gallery</b><button id="amClose" aria-label="Close album">×</button></div>
+  <div class="am-grid" id="amGrid"></div> 
+</center>
+</div>
+
+<div class="vw" id="viewer">
+  <button id="vwClose" aria-label="Close">×</button>
+  <button id="vwPrev" aria-label="Previous">‹</button>
+  <img id="vwImg" alt="">
+  <button id="vwNext" aria-label="Next">›</button>
+</div>
+
+
+
+<section class="wrap"><div class="join">
+ <div><b>Join our cafe family!</b><p>Reservations, events and bulk orders — message us anytime.</p></div>
+ <a class="btn" href="https://m.me/Blessed Cafe" target="_blank" rel="noopener">Message Us</a>
+</div></section>
+
+<section class="wrap">
+ <div class="title"><h2>Follow Us on Facebook</h2><p class="mut"><a href="https://www.facebook.com/share/19Ywk8k8ic/" target="_blank" rel="noopener">Blessed KD Resto Cafe</a></p></div>
+</section>
+
+<footer id="visit"><div class="wrap fgrid">
+ <div><a class="brand" href="#home"><img src="images/logo.jpg" alt=""><span>Blessed KD</span></a><p>Resto Cafe — brewed with love, served with a blessing.</p></div>
+ <div><h4>Opening Hours</h4><p>Mon – Fri: 7 AM – 9 PM<br>Saturday: 8 AM – 10 PM<br>Sunday: 1 PM – 9 PM</p></div>
+  <div><h4>Contact</h4><p><a href="https://www.google.com/maps/search/?api=1&query=Caladuan+Lower+Tap-as+Pampang+Kayapa+Nueva+Vizcaya" target="_blank" rel="noopener">Caladuan, Lower Tap-as, Pampang, Kayapa, Nueva Vizcaya, Philippines 3708</a><br><a href="tel:+639164381967">0916 438 1967</a></p></div>
+ <div><h4>Explore</h4><p><a href="#menu">Menu</a><br><a href="#about">About</a><br><a href="#reviews">Reviews</a></p></div>
+</div>
+<p class="copy">“Whatever you do, work at it with all your heart, as working for the Lord.” — Colossians 3:23<br>© <span id="yr"></span> Blessed KD Resto Cafe</p></footer>
+
+<div id="ov"></div><aside id="drawer" aria-label="Your order"></aside><div id="toast"></div>
+<script src="script.js?v=4"></script>
+</body>
+</html>
