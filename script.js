@@ -98,7 +98,7 @@ const GCASH={no:"09164381967",name:"RH....N D."}; // optional QR: images/gcash-q
 const TYPES=[["Dine-in",0],["Take-out",0],["Delivery",20]],PAYS=["Cash","GCash"],PROMOS={BLESSED10:.1,VERSE5:.1};
 let cart=[],cat="All",promo=0,order=null,f={nm:"",ph:"",ad:"",type:"Dine-in",pay:"Cash",code:""};
 const slug=t=>t.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
-const EXTS=["jpg","png","jpeg","webp","JPG","PNG","JPEG","WEBP"];
+const EXTS=["jpg","png","jpeg","webp"];
 const img=(s,f)=>{const b=s.replace(/\.\w+$/,"");return `<img src="${b}.jpg" data-b="${b}" data-f="${f?f.replace(/\.\w+$/,""):""}" data-n="0" alt="" loading="lazy" onerror="nx(this)">`};
 function nx(i){const n=+i.dataset.n+1;if(n<EXTS.length){i.dataset.n=n;i.src=i.dataset.b+"."+EXTS[n]}else if(i.dataset.f){i.dataset.b=i.dataset.f;i.dataset.f="";i.dataset.n=0;i.src=i.dataset.b+".jpg"}else i.remove()}
 const pic=(m,t)=>{const b=`images/${slug(m.c)}/${slug(m.n)}`;return t?img(`${b}-${slug(t)}.jpg`,`${b}.jpg`):img(`${b}.jpg`)};
