@@ -5,7 +5,7 @@ const MENU=[
  {c:"Coffee",e:"☕",n:"Americano", d:"",ty:["Hot","Cold"],z:{Regular:50,Medium:75,Large:99},zc:{Regular:60,Medium:85,Large:109,pic:"images/coffee/americano.png"}},
  {c:"Coffee",e:"🥛",n:"Cappuccino",d:"",ty:["Hot","Cold"],z:{Regular:75,Medium:130,Large:150},zc:{Regular:60,Medium:85,Large:109}},
  {c:"Coffee",e:"🧊",n:"Hazelnut Latte",d:"",ty:["Cold"],z:{Regular:75,Medium:130,Large:150},zc:{Regular:60,Medium:85,Large:109}},
- {c:"Coffee",e:"☕",n:"espresso latte", d:"",ty:["Cold"],z:{Regular:70,Medium:120,Large:140},zc:{Regular:60,Medium:85,Large:109}},
+ {c:"Coffee",e:"☕",n:"Espresso Latte", d:"",ty:["Cold"],z:{Regular:70,Medium:120,Large:140},zc:{Regular:60,Medium:85,Large:109}},
  {c:"Coffee",e:"☕",n:"Caramel Macchiato", d:"",ty:["Cold"],z:{Regular:75,Medium:120,Large:140},zc:{Regular:60,Medium:85,Large:109}},
  {c:"Coffee",e:"☕",n:"Vanilla Latte", d:"",ty:["Cold"],z:{Regular:70,Medium:120,Large:140},zc:{Regular:60,Medium:85,Large:109}},
  {c:"Coffee",e:"☕",n:"Salted Caramel", d:"",ty:["Cold"],z:{Regular:70,Medium:120,Large:140},zc:{Regular:60,Medium:85,Large:109}},
